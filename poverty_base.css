@@ -9,7 +9,7 @@
 
 /* main section starts here */
 .main-section {
-background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url(/images/img1.jpg) no-repeat;
+background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url(img1.jpg) no-repeat;
 background-size: cover;
 background-position: 0 15%;
 }
@@ -31,7 +31,7 @@ width: 360px;
 
 /* image taken by Pexel.com */
 .about-impact-section .about-content {
-  background: linear-gradient(rgba(0, 0, 0, 0.66),rgba(0,0,0,0.66)),url(/images/blockimg1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.66),rgba(0,0,0,0.66)),url(blockimg1.jpg);
   background-size: cover;
   background-position: 0 20%;
   height: 790px;
@@ -71,7 +71,7 @@ width: 360px;
 
 /* image taken by Pexel.com */
 .about-impact-section .impact-content {
-  background: linear-gradient(to top, rgb(0, 0, 0) 1%, transparent), url(/images/img4.png) no-repeat;
+  background: linear-gradient(to top, rgb(0, 0, 0) 1%, transparent), url(img4.png) no-repeat;
   background-size: cover;
   min-height: 850px;  
   width: 100%;
