@@ -1,0 +1,151 @@
+
+/* for home only */
+.mid-sect .home-link {
+  color: rgb(167, 153, 126);
+  pointer-events: none;
+}
+/* for home only */
+
+
+/* main section starts here */
+.main-section {
+background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url(/images/img1.jpg) no-repeat;
+background-size: cover;
+background-position: 0 15%;
+}
+
+.main-section .main-content .main2 {
+width: 360px;
+}
+/* main section ends here */
+
+
+
+/* about & impact section starts here */
+.about-impact-section {
+  padding: 0;
+  color: antiquewhite;
+  height: 970px;
+}
+
+
+/* image taken by Pexel.com */
+.about-impact-section .about-content {
+  background: linear-gradient(rgba(0, 0, 0, 0.66),rgba(0,0,0,0.66)),url(/images/blockimg1.jpg);
+  background-size: cover;
+  background-position: 0 20%;
+  height: 790px;
+  color: antiquewhite;
+}
+
+.about-impact-section .about-content .about-text, 
+.about-impact-section .impact-content .impact-text {
+  padding: 3rem 8.5%;
+  padding-top: 30px;
+  font-size: 1.07rem;
+}
+
+.about-impact-section .about-content .about-text .about-header,
+.about-impact-section .impact-content .impact-text .impact-header {
+  padding-bottom: 10px;
+  color: rgb(147, 79, 79);
+  font-size: 2.5rem;
+}
+
+.about-impact-section .about-content .about-text{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 3;
+}
+
+.about-content .about-subheader {
+  font-size: 1.4rem;
+  padding-bottom: 6px;
+}
+
+.about-content .about-description {
+  padding-bottom: 30px;
+  width: 700px;
+}
+
+/* image taken by Pexel.com */
+.about-impact-section .impact-content {
+  background: linear-gradient(to top, rgb(0, 0, 0) 1%, transparent), url(/images/img4.png) no-repeat;
+  background-size: cover;
+  min-height: 850px;  
+  width: 100%;
+  filter: drop-shadow(5px 5px 50px #000);
+  position: relative;
+  top: -650px;
+}
+
+.about-impact-section .impact-content .impact-text {
+  position: relative;
+  bottom: -345px;
+  width: 900px;
+}
+
+.impact-content .impact-text .impact-subheader {
+  font-size: 1.3rem;
+}
+
+.impact-content .impact-text .impact1 {
+  display: block;
+  padding-top: 5px;
+}
+
+.impact-content .impact-text .impact-list {
+  padding-left: 17px;
+}
+/* about & impact section ends here */
+
+
+/* poverty section starts here */
+.poverty-section {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  height: 60vh;
+  position: relative;
+  z-index: 4;
+  justify-content: center;
+}
+
+.poverty-section .poverty-content {
+  width: 1000px;
+}
+
+.poverty-section .poverty-text {
+  color: antiquewhite;
+  flex-direction: column;
+}
+
+.poverty-section .poverty-header {
+  color: rgb(112, 54, 54);
+  font-size: 5rem;
+  padding-bottom: 30px;
+}
+
+.poverty-section .poverty3 {
+  display: block;
+  padding-top: 50px;
+  width: 1100px;
+}
+
+ 
+
+
+
+/* footer starts here */
+.footer-section {
+  height: 40px;
+  padding: 0;
+  background-color: rgb(70, 89, 105);
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+/* footer ends her */

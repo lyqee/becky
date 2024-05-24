@@ -1,0 +1,95 @@
+/* for aspiratons only */
+.mid-sect .aspirations-link {
+  color: rgb(167, 153, 126);
+  pointer-events: none;
+}
+/* for aspirations only */
+
+
+/* main section starts here */
+.main-section {
+  background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.65)), url(/images/img3.avif) no-repeat;
+  background-size: cover;
+  background-position: 0 15%;
+}
+
+.main-section .main-content .main2 {
+width: 520px;
+}
+/* main section ends here */
+
+
+/* experience & vision section starts here */
+.experience-vision-section {
+  padding: 0;
+  color: antiquewhite;
+  height: 820px;
+}
+
+/* image taken by Pexel.com */
+.experience-vision-section .experience-content {
+  background: linear-gradient(rgba(0, 0, 0, 0.35),rgba(0,0,0,0.3)),url(/images/blockimg2.jpg);
+  background-size: cover;
+  height: 590px;
+  display: flex;
+  justify-content: flex-end;
+  color: antiquewhite;
+}
+
+.experience-vision-section .experience-content .experience-text, 
+.experience-vision-section .vision-content .vision-text {
+  padding: 3rem 8.5%;
+  padding-top: 30px;
+  font-size: 1.07rem;
+  width: 850px;
+}
+
+.experience-vision-section .experience-content .experience-text .experience-header,
+.experience-vision-section .vision-content .vision-text .vision-header {
+  padding-bottom: 10px;
+  color: rgb(147, 79, 79);
+  font-size: 2.5rem;
+}
+
+
+.experience-vision-section .experience-content .experience-text{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 3;
+}
+
+.experience-content .experience-subheader {
+  font-size: 1.4rem;
+  padding-bottom: 6px;
+}
+
+.experience-content .experience1 {
+  padding-bottom: 20px;
+}
+
+/* image taken by Pexel.com */
+.experience-vision-section .vision-content {
+  background: linear-gradient(to top, rgb(0, 0, 0) 12%, transparent), url(/images/img2.png) no-repeat;
+  background-size: cover;
+  min-height: 950px;  
+  width: 100%;
+  filter: drop-shadow(5px 5px 50px #000);
+  position: relative;
+  top: -700px;
+}
+
+.experience-vision-section .vision-content .vision-text {
+  position: relative;
+  bottom: -545px;
+  height: 400px;
+}
+
+.vision-content .vision-text .vision-subheader {
+  font-size: 1.3rem;
+}
+
+.vision-content .vision-text .vision1 {
+  display: block;
+  padding-bottom: 20px;
+}

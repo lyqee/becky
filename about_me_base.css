@@ -1,0 +1,114 @@
+/* for about me only */
+.mid-sect .about-link {
+  color: rgb(167, 153, 126);
+  pointer-events: none;
+}
+/* for about me only */
+
+/* main section starts here */
+.main-section {
+  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url(/images/img5.jpg) no-repeat;
+  background-size: cover;
+  background-position: 0 15%;
+  padding-bottom: 198px;
+}
+
+.main-section .main-content .main2 {
+  width: 360px;
+}
+
+.main-content h2 {
+  color: rgb(147, 79, 79);
+  font-size: 3rem;
+  position: relative;
+  bottom: 15px;
+}
+/* main section ends here */
+
+/* about & hobby section starts here */
+
+/* image taken by me */
+.about-section {
+  background: linear-gradient(rgba(0, 0, 0, 0),rgba(0,0,0,0.8)),url(/images/img6.png);
+  background-size: cover;
+  background-position: 0 20%;
+  filter: drop-shadow(5px 5px 50px #000);
+  height: 900px;
+  position: relative;
+  bottom: 404px;
+}
+
+.about-section .about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 0;
+  color: antiquewhite;
+  height: 600px;
+  width: 900px;
+  position: absolute;
+  top: 310px;
+}
+
+.about-content .about-header {
+  padding-bottom: 10px;
+  color: rgb(147, 79, 79);
+  font-size: 2.5rem;
+}
+
+.about-content .about-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-content .about1, .about2{
+  padding-bottom: 30px;
+  width: 700px;
+}
+
+.about-content .about3 {
+  padding-bottom: 40px;
+}
+
+/* image taken by me */
+.hobby-content {
+background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.2)),url(/images/img7.jpg);
+background-size: cover;
+background-position: 0 20%;
+width: 1380px;
+height: 690px;
+position: relative;
+top: 868px;
+right: 111px;
+}
+
+.hobby-content .hobby-text {
+  padding: 2rem 8% ;
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+}
+
+.hobby-content .hobby-header {
+  padding-bottom: 10px;
+  color: rgb(147, 79, 79);
+  font-size: 2.5rem;
+}
+
+.hobby-content {
+  color: antiquewhite;
+}
+
+.hobby-content .hobby1, .hobby2 {
+  padding-bottom: 20px;
+}
+
+.hobby-content .hobby3 {
+  padding-bottom: 50px;
+}
+/* about & hobby section ends here */
+
+.footer-section {
+  position: relative;
+  top: 280px;
+}

@@ -1,0 +1,134 @@
+/* header starts here */
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.left-sect {
+  display: flex;
+  align-items: center;
+}
+
+.sdg-button {
+  width: 68px;
+  height: 30px;
+  margin-left: 30px;
+  position: relative;
+}
+
+.sdg-button .sdg-icon {
+  position: absolute;
+  height: 100%;
+  object-fit: cover;
+  left: 0;
+  filter: invert(1);
+  filter: brightness(0) saturate(100%) invert(89%) sepia(11%) saturate(665%) hue-rotate(330deg) brightness(107%) contrast(96%);
+}
+
+.sdg-icon:hover {
+  transition: all 0.2s ease 0s;
+  filter: brightness(0) saturate(100%) invert(63%) sepia(15%) saturate(465%) hue-rotate(1deg) brightness(94%) contrast(93%);
+}
+
+.sdg-button .tooltip {
+  position: absolute;
+  right: 8px;
+  bottom: -35px;
+  background-color: #444444;
+  padding: 4px 10px 4px 10px;
+  border-radius: 20px;
+  color: antiquewhite;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.mid-sect {
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  flex: 1;
+  height: 36px;
+  padding-left: 0px;
+  font-size: 16px;
+  list-style: none;
+}
+
+.nav-links > li {
+  display: inline-block;
+  padding: 0px 60px;
+  margin-top: 11px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: rgb(250, 235, 215);
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: rgb(167, 153, 126);
+}
+
+.right-sect {
+  width: 100px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.help-button {
+  width: 30px;
+  height: 30px;
+  margin-left: 50px;
+  position: relative;
+}
+
+.help-button .help-icon {
+  position: absolute;
+  height: 100%;
+  object-fit: cover;
+  left: 0;
+  filter: brightness(0) saturate(100%) invert(89%) sepia(11%) saturate(665%) hue-rotate(330deg) brightness(107%) contrast(96%);
+}
+
+.help-icon:hover {
+  transition: all 0.2s ease 0s;
+  filter: brightness(0) saturate(100%) invert(63%) sepia(15%) saturate(465%) hue-rotate(1deg) brightness(94%) contrast(93%);
+}
+
+.help-button .tooltip {
+  position: absolute;
+  right: -19px;
+  bottom: -35px;
+  background-color: #444444;
+  padding: 4px 10px 4px 10px;
+  border-radius: 20px;
+  color: antiquewhite;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.help-button:hover .tooltip,
+.sdg-button:hover .tooltip {
+  opacity: 0.7;
+}
+
+/* header ends here */

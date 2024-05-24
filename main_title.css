@@ -1,0 +1,37 @@
+section {
+  padding: 2rem 8% ;
+}
+
+.highlight {
+  color: rgb(147, 158, 129);
+}
+
+.main-section {
+  display: flex;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.main-section .main-content {
+  max-width: 50rem;
+}
+
+.main-section .main-content h1 {
+  font-size: 6rem;
+  letter-spacing: -3px;
+  word-spacing: -10px;
+  color: rgb(112, 54, 54);
+}
+
+.main-section .main-content span {
+  font-size: 1.5rem;
+  color: antiquewhite;
+  padding: 1rem 0;
+  line-height: 1.0;
+}
+
+.main-section .main-content .main2 {
+  display: block;
+  padding-top: 90px;
+  font-size: 1.2rem;
+}
