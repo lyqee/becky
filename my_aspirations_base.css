@@ -8,7 +8,7 @@
 
 /* main section starts here */
 .main-section {
-  background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.65)), url(/images/img3.avif) no-repeat;
+  background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.65)), url(img3.avif) no-repeat;
   background-size: cover;
   background-position: 0 15%;
 }
@@ -28,7 +28,7 @@ width: 520px;
 
 /* image taken by Pexel.com */
 .experience-vision-section .experience-content {
-  background: linear-gradient(rgba(0, 0, 0, 0.35),rgba(0,0,0,0.3)),url(/images/blockimg2.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.35),rgba(0,0,0,0.3)),url(blockimg2.jpg);
   background-size: cover;
   height: 590px;
   display: flex;
@@ -70,7 +70,7 @@ width: 520px;
 
 /* image taken by Pexel.com */
 .experience-vision-section .vision-content {
-  background: linear-gradient(to top, rgb(0, 0, 0) 12%, transparent), url(/images/img2.png) no-repeat;
+  background: linear-gradient(to top, rgb(0, 0, 0) 12%, transparent), url(img2.png) no-repeat;
   background-size: cover;
   min-height: 950px;  
   width: 100%;
